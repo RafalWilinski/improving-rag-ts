@@ -1,0 +1,27 @@
+{
+  "name": "ts-improving-rag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@githubnext/vitale": "^0.0.17",
+    "@types/node": "^22.0.2",
+    "typescript": "npm:@githubnext/typescript@5.4.5-hacked.1"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.40",
+    "@lancedb/lancedb": "^0.7.1",
+    "ai": "^3.2.45",
+    "apache-arrow": "^15.0.2",
+    "openai": "^4.54.0",
+    "p-limit": "^6.1.0",
+    "tslib": "^2.6.3",
+    "zod": "^3.23.8"
+  }
+}
