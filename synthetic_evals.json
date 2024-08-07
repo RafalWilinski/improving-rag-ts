@@ -1,242 +1,102 @@
 [
-  [
-    {
-      "question": "How long does the battery last on a single charge?",
-      "answer": "The 20V lithium-ion battery lasts for up to 3 hours of continuous use.",
-      "chunkId": "0"
-    },
-    {
-      "question": "Is the drill comfortable to use for long periods?",
-      "answer": "Yes, the ergonomic grip and lightweight design make it comfortable to use for extended periods without discomfort.",
-      "chunkId": "0"
-    }
-  ],
-  [
-    {
-      "question": "How long does the battery last on a single charge?",
-      "answer": "The 20V lithium-ion battery lasts for up to 3 hours of continuous use.",
-      "chunkId": "0"
-    },
-    {
-      "question": "Is the drill comfortable to use for long periods?",
-      "answer": "Yes, the ergonomic grip and lightweight design make it comfortable to use for extended periods without discomfort.",
-      "chunkId": "0"
-    }
-  ],
-  [
-    {
-      "question": "How does the cordless drill perform on heavy-duty tasks?",
-      "answer": "The cordless drill performs excellently on heavy-duty tasks due to its high-torque motor, allowing it to drill through tough materials like hardwood and metal without any issues.",
-      "chunkId": "1"
-    },
-    {
-      "question": "Is the cordless drill easy to use in tight spaces?",
-      "answer": "Yes, the cordless drill's compact design makes it easy to maneuver in tight spaces, such as under a kitchen sink.",
-      "chunkId": "1"
-    }
-  ],
-  [
-    {
-      "question": "How does the cordless drill perform on heavy-duty tasks?",
-      "answer": "The cordless drill performs exceptionally well on heavy-duty tasks due to its high-torque motor, allowing it to drill through tough materials like hardwood and metal without any issues.",
-      "chunkId": "1"
-    },
-    {
-      "question": "Is the cordless drill easy to use in tight spaces?",
-      "answer": "Yes, the cordless drill's compact design makes it easy to maneuver in tight spaces, such as under a kitchen sink.",
-      "chunkId": "1"
-    }
-  ],
-  [
-    {
-      "question": "How long does the battery take to charge and how long does it last?",
-      "answer": "The quick-charging battery fully charges in just 45 minutes and lasts for hours of continuous use.",
-      "chunkId": "2"
-    },
-    {
-      "question": "Is the drill comfortable to use for long periods?",
-      "answer": "Yes, the soft grip handle is comfortable even during extended use.",
-      "chunkId": "2"
-    }
-  ],
-  [
-    {
-      "question": "How long does the battery take to charge and how long does it last?",
-      "answer": "The battery fully charges in just 45 minutes and lasts for hours of continuous use.",
-      "chunkId": "2"
-    },
-    {
-      "question": "Is the drill comfortable to use for long periods?",
-      "answer": "Yes, the drill has a soft grip handle that is comfortable even during extended use.",
-      "chunkId": "2"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench handle different sizes?",
-      "answer": "The adjustable wrench features a smooth jaw adjustment mechanism that allows for quick and easy size changes, making it ideal for working in tight spaces.",
-      "chunkId": "3"
-    },
-    {
-      "question": "Is the adjustable wrench durable for regular use?",
-      "answer": "Yes, the adjustable wrench is made from chrome vanadium steel, which is durable and resistant to rust, making it suitable for regular use in various conditions.",
-      "chunkId": "3"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench handle different sizes?",
-      "answer": "The adjustable wrench features a smooth jaw adjustment mechanism, allowing for quick and easy size changes, which is essential for working in tight spaces.",
-      "chunkId": "3"
-    },
-    {
-      "question": "Is the adjustable wrench durable?",
-      "answer": "Yes, the adjustable wrench is made from chrome vanadium steel, which provides strength and durability. It is also resistant to rust, making it suitable for use in damp conditions.",
-      "chunkId": "3"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench handle tough nuts and bolts?",
-      "answer": "The 12-inch length provides excellent leverage, making it easy to tackle even the toughest nuts and bolts.",
-      "chunkId": "4"
-    },
-    {
-      "question": "Is the adjustable wrench comfortable to use for long periods?",
-      "answer": "Yes, the non-slip grip and ergonomic design make it comfortable to use for extended periods without hand slipping.",
-      "chunkId": "4"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench handle tough nuts and bolts?",
-      "answer": "The 12-inch length provides excellent leverage, making it easy to tackle even the toughest nuts and bolts.",
-      "chunkId": "4"
-    },
-    {
-      "question": "Is the adjustable wrench comfortable to use for long periods?",
-      "answer": "Yes, the non-slip grip and ergonomic design make it comfortable to use for extended periods without slipping.",
-      "chunkId": "4"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench perform in terms of durability?",
-      "answer": "The adjustable wrench is highly durable, showing no signs of wear or rust even after 6 to 8 months of use.",
-      "chunkId": "5"
-    },
-    {
-      "question": "Is the adjustable wrench comfortable to use for extended periods?",
-      "answer": "Yes, the adjustable wrench is comfortable to use for extended periods due to its lightweight design and rubberized grip.",
-      "chunkId": "5"
-    }
-  ],
-  [
-    {
-      "question": "How does the adjustable wrench perform in terms of grip?",
-      "answer": "The precision jaws of the adjustable wrench grip tightly without slipping, even on rusted bolts, preventing rounding off nuts.",
-      "chunkId": "5"
-    },
-    {
-      "question": "Is the adjustable wrench durable over time?",
-      "answer": "Yes, the adjustable wrench shows no signs of wear or rust even after 6 to 12 months of use, indicating high durability.",
-      "chunkId": "5"
-    }
-  ],
-  [
-    {
-      "question": "How does the speed control feature of the electric sander benefit users?",
-      "answer": "The variable speed control allows users to adjust the speed from 5,000 to 12,000 RPM, making it versatile for different tasks and types of wood.",
-      "chunkId": "6"
-    },
-    {
-      "question": "Is the dust collection system effective in this electric sander?",
-      "answer": "Yes, the dust collection system works well, keeping the workspace tidy and reducing cleanup time significantly.",
-      "chunkId": "6"
-    }
-  ],
-  [
-    {
-      "question": "How does the speed control feature of the electric sander benefit users?",
-      "answer": "The variable speed control allows users to adjust the speed from 5,000 to 12,000 RPM, making it versatile for different tasks and types of wood.",
-      "chunkId": "6"
-    },
-    {
-      "question": "Is the dust collection system effective in this electric sander?",
-      "answer": "Yes, the dust collection system works well, keeping the workspace tidy and reducing cleanup time significantly.",
-      "chunkId": "6"
-    }
-  ],
-  [
-    {
-      "question": "How does the motor power of the Electric Sander perform?",
-      "answer": "The Electric Sander has a 3.5 amp motor that provides ample power, making it easy to sand down old furniture and smooth out rough edges.",
-      "chunkId": "7"
-    },
-    {
-      "question": "Is the Electric Sander comfortable to use for long periods?",
-      "answer": "Yes, the ergonomic grip of the Electric Sander allows for extended use without feeling fatigued.",
-      "chunkId": "7"
-    }
-  ],
-  [
-    {
-      "question": "How does the motor power of the Electric Sander perform?",
-      "answer": "The Electric Sander has a 3.5 amp motor that provides ample power, making it easy to sand down old furniture and smooth out rough edges.",
-      "chunkId": "7"
-    },
-    {
-      "question": "Is the Electric Sander comfortable to use for long periods?",
-      "answer": "Yes, the ergonomic grip of the Electric Sander allows for extended use without feeling fatigued.",
-      "chunkId": "7"
-    }
-  ],
-  [
-    {
-      "question": "How does the Electric Sander handle long sanding sessions?",
-      "answer": "The Electric Sander is lightweight at 3.5 pounds and has an ergonomic grip, making it comfortable to use for extended periods without causing fatigue.",
-      "chunkId": "8"
-    },
-    {
-      "question": "Is the dust collection system effective on this sander?",
-      "answer": "Yes, the built-in dust bag captures about 90% of the debris, making cleanup easy and reducing mess in the workspace.",
-      "chunkId": "8"
-    }
-  ],
-  [
-    {
-      "question": "How does the Electric Sander handle during long use?",
-      "answer": "The Electric Sander is lightweight at 3.5 pounds and has an ergonomic grip, making it easy to handle for extended periods without causing fatigue.",
-      "chunkId": "8"
-    },
-    {
-      "question": "Is the dust collection system effective on this sander?",
-      "answer": "Yes, the built-in dust bag captures about 90% of the debris, making cleanup easy and reducing mess in the workspace.",
-      "chunkId": "8"
-    }
-  ],
-  [
-    {
-      "question": "How does the extension cord handle outdoor conditions?",
-      "answer": "The extension cord has a weather-resistant jacket that holds up well against rain and sun exposure, making it suitable for outdoor use.",
-      "chunkId": "9"
-    },
-    {
-      "question": "Can this extension cord handle multiple tools at once?",
-      "answer": "Yes, the extension cord can handle multiple tools simultaneously, such as an electric lawn mower and power tools, without any issues.",
-      "chunkId": "9"
-    }
-  ],
-  [
-    {
-      "question": "How does the extension cord handle outdoor conditions?",
-      "answer": "The extension cord has a weather-resistant jacket that holds up well against rain and sun exposure, making it suitable for outdoor use.",
-      "chunkId": "9"
-    },
-    {
-      "question": "Can this extension cord handle multiple tools at once?",
-      "answer": "Yes, the extension cord has multiple outlets and a 12-gauge wire, allowing it to power multiple tools like a drill, saw, and work light simultaneously without voltage drop.",
-      "chunkId": "9"
-    }
-  ]
+  {
+    "question": "How long does the battery last on a single charge?",
+    "answer": "The 20V lithium-ion battery lasts for hours on a single charge.",
+    "chunkId": "0"
+  },
+  {
+    "question": "Is the drill comfortable to use for long periods?",
+    "answer": "Yes, the ergonomic grip allows for extended use without discomfort.",
+    "chunkId": "0"
+  },
+  {
+    "question": "How long does the battery last on a single charge?",
+    "answer": "The 20V lithium-ion battery lasts for hours on a single charge.",
+    "chunkId": "1"
+  },
+  {
+    "question": "Is the drill suitable for tight spaces?",
+    "answer": "Yes, the compact design of the drill fits perfectly in tight spaces.",
+    "chunkId": "1"
+  },
+  {
+    "question": "How long does the battery last on a single charge?",
+    "answer": "The 20V lithium-ion battery lasts for hours, allowing completion of multiple projects on a single charge.",
+    "chunkId": "2"
+  },
+  {
+    "question": "Is the drill comfortable to use for long periods?",
+    "answer": "Yes, the ergonomic handle is comfortable to grip even during extended use.",
+    "chunkId": "2"
+  },
+  {
+    "question": "How does the jaw adjustment mechanism work on this adjustable wrench?",
+    "answer": "The adjustable wrench features a smooth jaw adjustment mechanism that allows for quick and easy size changes, making it efficient for various tasks.",
+    "chunkId": "3"
+  },
+  {
+    "question": "Is this adjustable wrench durable and resistant to rust?",
+    "answer": "Yes, the wrench is made from high-carbon steel, which makes it incredibly durable and resistant to rust, maintaining its condition even after extended use.",
+    "chunkId": "3"
+  },
+  {
+    "question": "How does the adjustable wrench handle tough nuts and bolts?",
+    "answer": "The 12-inch length provides excellent leverage, making it easy to tackle even the toughest nuts and bolts.",
+    "chunkId": "4"
+  },
+  {
+    "question": "Is the adjustable wrench comfortable to use for long periods?",
+    "answer": "Yes, the ergonomic grip allows for hours of use without hand cramping.",
+    "chunkId": "4"
+  },
+  {
+    "question": "How does the adjustable wrench handle different fastener sizes?",
+    "answer": "The adjustable wrench has a wide jaw opening that accommodates fasteners up to 2 inches, and it can handle both metric and imperial fasteners, making it versatile for various projects.",
+    "chunkId": "5"
+  },
+  {
+    "question": "Is the adjustable wrench comfortable to use for long periods?",
+    "answer": "Yes, the ergonomic handle design is comfortable for extended use, and users have not experienced hand fatigue even after long hours of work.",
+    "chunkId": "5"
+  },
+  {
+    "question": "How does the motor perform on different types of wood?",
+    "answer": "The 2.5 amp motor provides plenty of power, allowing for smooth sanding on both softwood and hardwood.",
+    "chunkId": "6"
+  },
+  {
+    "question": "Is the sander comfortable to use for long periods?",
+    "answer": "Yes, the ergonomic handle allows for extended use without discomfort.",
+    "chunkId": "6"
+  },
+  {
+    "question": "How does the variable speed control benefit the Electric Sander's performance?",
+    "answer": "The variable speed control allows the Electric Sander to adjust speeds from 5,000 to 12,000 RPM, making it suitable for both delicate sanding on furniture and heavy-duty work on rough wood.",
+    "chunkId": "7"
+  },
+  {
+    "question": "Is the dust collection system effective in the Electric Sander?",
+    "answer": "Yes, the dust collection system is effective, keeping the workspace clean and reducing mess, with minimal dust accumulation even after several hours of use.",
+    "chunkId": "7"
+  },
+  {
+    "question": "How does the electric sander handle tight spaces?",
+    "answer": "The compact design of the electric sander allows it to easily maneuver into tight corners and detailed areas, making it ideal for intricate designs.",
+    "chunkId": "8"
+  },
+  {
+    "question": "Is the sandpaper easy to change on this sander?",
+    "answer": "Yes, the electric sander features a quick-change sandpaper system that allows users to switch between grits in seconds without hassle.",
+    "chunkId": "8"
+  },
+  {
+    "question": "How does the circular saw perform on different materials?",
+    "answer": "The circular saw cuts smoothly through hardwoods like oak and maple without splintering and easily handles 2x4s and plywood.",
+    "chunkId": "9"
+  },
+  {
+    "question": "What features make the circular saw easy to use?",
+    "answer": "The lightweight design and ergonomic handle make it easy to maneuver and comfortable to grip, reducing fatigue during long projects.",
+    "chunkId": "9"
+  }
 ]

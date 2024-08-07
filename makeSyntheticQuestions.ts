@@ -2,9 +2,10 @@ import * as lancedb from "@lancedb/lancedb";
 import { generateObject } from "ai";
 import { openai } from "@ai-sdk/openai";
 import { z } from "zod";
+import cliProgress from "cli-progress";
 import { writeFileSync } from "fs";
 
-interface Review {
+export interface Review {
   id: string;
   productTitle: string;
   review: string;
@@ -13,9 +14,9 @@ interface Review {
 
 const db = await lancedb.connect("./data/lancedb");
 const reviewsTable = await db.openTable("reviews");
-const reviews: Review[] = await reviewsTable.query().limit(10).toArray();
+const reviews: Review[] = await reviewsTable.query().toArray();
 
-const numberOfQuestions = 2;
+const numberOfQuestions = 3;
 const example_questions = [
   "What does the reviewer like about the product?",
   "What does the reviewer think could be improved?",
@@ -65,16 +66,22 @@ async function generateEvals(review: Review, exampleQuestions: string[]) {
   }));
 }
 
-const allEvals = await Promise.all(
-  reviews.flatMap(async (review) => {
-    const evals = [];
-    for (let i = 0; i < numberOfQuestions; i++) {
-      const questionAnswer = await generateEvals(review, example_questions);
-      evals.push(questionAnswer);
-    }
-    return evals;
-  })
-);
+const progressBar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+console.log("Generating evaluation questions and answers...");
+progressBar.start(reviews.length, 0);
+
+const allEvals = [];
+for (const review of reviews) {
+  const evals = [];
+
+  const questionAnswer = await generateEvals(review, example_questions);
+  evals.push(...questionAnswer);
+
+  allEvals.push(...evals);
+  progressBar.increment();
+}
+
+progressBar.stop();
 
 const flattenedEvals = allEvals.flat();
 

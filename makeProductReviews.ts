@@ -6,10 +6,9 @@ import * as lancedb from "@lancedb/lancedb";
 import { LanceSchema, getRegistry } from "@lancedb/lancedb/lancedb/embedding";
 import { Utf8 } from "apache-arrow";
 import { openai } from "@ai-sdk/openai";
-import { embed } from "ai";
 import { writeFileSync } from "fs";
 
-const productsCount = 10;
+const productsCount = 50;
 
 console.log(`Generating ${productsCount} products...`);
 const { object } = await generateObject({
