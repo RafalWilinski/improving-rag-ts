@@ -15,10 +15,12 @@
     "typescript": "npm:@githubnext/typescript@5.4.5-hacked.1"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.40",
+    "@ai-sdk/openai": "^0.0.43",
     "@lancedb/lancedb": "^0.7.1",
-    "ai": "^3.2.45",
+    "@types/cli-progress": "^3.11.6",
+    "ai": "^3.3.3",
     "apache-arrow": "^15.0.2",
+    "cli-progress": "^3.12.0",
     "openai": "^4.54.0",
     "p-limit": "^6.1.0",
     "tslib": "^2.6.3",
