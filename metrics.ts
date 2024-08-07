@@ -16,7 +16,11 @@ const syntheticQuestions: EvalQuestion[] = JSON.parse(
 );
 
 async function simpleRequest(q: EvalQuestion, n: number = 5): Promise<string[]> {
-  const results = await reviewsTable.search(q.question).limit(n).toArray();
+  // Sometimes the search hangs indefinitely, so we set a timeout and return an empty array if the search takes too long
+  const results = await Promise.race([
+    reviewsTable.search(q.question).limit(n).toArray(),
+    new Promise<[]>((_, reject) => setTimeout(() => reject(new Error("Search timeout")), 5000)),
+  ]).catch(() => []);
   return results.map((r) => (q.chunkId === r.id ? r.id : ""));
 }
 
@@ -66,3 +70,14 @@ const scoresWithRetrieved = scores.map((score, index) => ({
 multibar.stop();
 
 console.table(scoresWithRetrieved);
+
+/**
+┌───┬─────────────────────┬────────────────────┬─────────────┐
+│   │ precision           │ recall             │ n_retrieved │
+├───┼─────────────────────┼────────────────────┼─────────────┤
+│ 0 │ 0.38345864661654133 │ 0.7555555555555555 │ 2           │
+│ 1 │ 0.19850746268656716 │ 0.9851851851851852 │ 5           │
+│ 2 │ 0.1                 │ 0.9851851851851852 │ 10          │
+│ 3 │ 0.06666666666666667 │ 0.9925925925925926 │ 15          │
+└───┴─────────────────────┴────────────────────┴─────────────┘
+ */
